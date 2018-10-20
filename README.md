@@ -6,7 +6,7 @@ This is a simple example for the purpose of raising a topic about using annotati
 
 Luis Harvey Triana Vega. 
 
-###harveytriana@hotmail.com
+harveytriana@hotmail.com
 
 Importan!
 https://github.com/neuecc/MessagePack-CSharp#object-serialization

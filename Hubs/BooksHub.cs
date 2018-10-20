@@ -18,7 +18,7 @@ namespace MessgePackServerData.Hubs
                 Date = DateTime.Now // for test
             };
 
-            // similates experience
+            // simulates experience
             await Task.Delay(1000);
 
             await Clients.All.SendAsync("RaiseResult", book);

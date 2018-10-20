@@ -9,14 +9,14 @@ namespace MessgePackServerData.Models
 {
 
 #if (ANNOTATIONS)
-    [MessagePackObject]
+    [MessagePackObject(keyAsPropertyName: true)]
     public class Book
     {
-        [Key(0)] public int Id { get; set; }
-        [Key(1)] public string Title { get; set; }
-        [Key(2)] public string Author { get; set; }
-        [Key(3)] public DateTime Date { get; set; }
-        [Key(4)] public double Price { get; set; }
+        public int Id { get; set; }
+        public string Title { get; set; }
+        public string Author { get; set; }
+        public DateTime Date { get; set; }
+        public double Price { get; set; }
     }
 #else
     public class Book

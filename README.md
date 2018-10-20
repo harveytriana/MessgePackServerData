@@ -8,5 +8,8 @@ Luis Harvey Triana Vega.
 
 ###harveytriana@hotmail.com
 
+Importan!
+https://github.com/neuecc/MessagePack-CSharp#object-serialization
+
 
 
